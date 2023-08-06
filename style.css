@@ -33,3 +33,14 @@ nav a:hover{
     font font-family: grid-template-rows: ;
     font-weight: bold;
 }
+#embed{
+    background-color: red;
+}
+.yt-box{
+    background-color: yellow;
+    width: 100%;
+}
+.google-map{
+    background-color: green;
+    width: 100%;
+}
