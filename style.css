@@ -34,13 +34,55 @@ nav a:hover{
     font-weight: bold;
 }
 #embed{
+    display: flex;
     background-color: red;
 }
 .yt-box{
     background-color: yellow;
-    width: 100%;
+    width: 50%;
 }
 .google-map{
     background-color: green;
-    width: 100%;
+    width: 50%;
+}
+footer p{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+#contact{
+    padding: 30px;
+}
+#contact h2{
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+#contact label{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contact form div{
+    margin: 10px 0;
+}
+#contact input, #contact textarea{
+    width: 50%;
+    padding: 10px 0;
+}
+#contact input[type=sumbit]{
+    background-color: black;
+    color:white;
+    border: none;
+    cursor: pointer;
+    width: 200px;
 }
